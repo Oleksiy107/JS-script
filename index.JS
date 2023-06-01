@@ -1,8 +1,7 @@
-const hour = +prompt("How much hours? ");
-if (Number.isNaN(hour)) {
-  alert("Sorry,it's not number");
-} else {
-  const seconds = hour * 3600;
-  const messenger = `In ${hour} hours = ${seconds} seconds`;
-  alert(messenger);
+const numbers = [5, 8, -1, '-6', 11, 'ololo', '-2']
+let sum = 0
+for (let i = 0; i < numbers.length; i++) {
+  sum += numbers[i]
 }
+
+alert('Sum is ' + sum)
